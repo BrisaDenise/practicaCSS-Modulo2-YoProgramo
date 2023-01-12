@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulario de registro - Mi web</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="container-center">
+
+            <h1>Formulario de registro</h1>
+            <form action="" method="get">
+                <div class="registro">
+                    <label for="nombre">Nombres</label> 
+                    <input type="text" name="nombre" maxlength="50"/>
+                </div>
+                
+                <div class="registro">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" maxlength="50" />
+                </div>
+                
+                <div class="registro">
+                    <label for="sexo">Sexo</label>
+                    <div class="registro-flex">
+                        <div class="registro-w-flex">
+                            <input type="radio" name="sexo" value="h"/> Hombre
+                        </div>
+                        <div class="registro-w-flex">
+                            <input type="radio" name="sexo" value="m"/> Mujer
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="registro">
+                    <label for="correo">Correo</label>
+                    <input type="text" name="correo" maxlength="100" />
+                </div>
+
+                <div class="registro">
+                    <input type="checkbox" name="info" checked="checked" /> Deseo recibir información sobre novedades y ofertas.
+                </div>
+                <div class="registro">
+                    <input type="checkbox" name="condiciones" /> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos.
+                </div>
+
+                <input type="submit" value="Enviar" />
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
